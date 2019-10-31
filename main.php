@@ -34,9 +34,9 @@
 		
 		<!-- Display latest image -->
 		<h2> Current Picture - Hybrid IR / Visible Light </h2>
-		<img src="Mobius_Website/images/image_recent.jpg" alt="Current Snapshot">
+		<img src="Mobius_Website/images/lastsnap.jpg" alt="Current Snapshot">
 		<?php
-			$filename = "Mobius_Website/images/image_recent.jpg";
+			$filename = "Mobius_Website/images/lastsnap.jpg";
 			if (file_exists($filename)) {
 				echo "<div class=\"centretext\">";
 				echo "Image was last recorded: " . date ("F d Y H:i:s.", filemtime($filename));
